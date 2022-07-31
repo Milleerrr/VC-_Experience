@@ -1,0 +1,157 @@
+
+/* Universal styles */
+
+html{
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+body {
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+/* Header Section */
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.75rem;
+}
+
+.nav-list { 
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem; 
+    font-size: 1.5rem;
+}
+
+.nav-list li {
+    letter-spacing: 0.15rem;
+    margin: 0 .65rem;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+}
+
+.nav-list li a {
+    color: black;
+}
+
+.nav-list li a:active{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: -2px;
+}
+
+/* Banner Section */
+
+.banner {
+    display: flex;
+    background-image: url(../images/spaceman.jpg);
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .quote-section {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+.quote-section h2 {
+    font-size: 2rem;
+}
+
+.quote-section h4 {
+    font-size: 1.25rem;
+}
+
+/* Portfolio Section */
+
+.content {
+    width: 100%;
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.company img {
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.content h2 {
+    font-size: 2rem;
+}
+
+.content h4 {
+    font-size: 1.25rem;
+}
+
+/* Our Teams Section */
+ 
+.team-container {
+    background-image: url(../images/bottom\ banner\ background.jpg);
+    margin-bottom: 3rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.heading h2 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.heading h3 {
+    font-size: 1.75rem;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.heading p {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+/* Footer Section */
+
+footer h2 {
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.email-phone {
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+}
